@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            color: royalblue;
+        }
+        h1:hover{
+            color:aqua;
+            background-color: seagreen;
+        }
+
+        .middle:focus{
+            color: blue;
+            font-weight: 20px;
+            background-color: crimson;
+        }
+
+        li:nth-child(2n+1){
+            color:deeppink;
+        }
+
+        h3::before{
+            content: "Hello ";
+        }
+
+        .special::after{
+            content: "!";
+        }
+
+        .pos{
+            height: 200px;
+            width: 200px;
+            position: absolute; 
+        }
+    </style>
+</head>
+<body>
+
+    <section>
+        <h1>this is my header</h1>
+        <h1>I am learning header</h1>
+        <h2>I have a higher position</h2>
+    </section>
+
+    <section class="pos">
+        <div><img src="images/person.png" alt=""></div>
+        <div><img src="images/banner/banner1.png" alt=""></div>
+        <div><img src="images/watch.png" alt=""></div>
+    </section>
+
+    <h1>Kridita Ray</h1>
+
+    <input type="text">
+    <input class="middle" type="text">
+    <input type="text">
+
+    <h3 class="special">middle size header-1</h3>
+    <h3>middle size header-2</h3>
+    <h3>middle size header-3</h3>
+    <h3 class="special">middle size header-4</h3>
+    <h3>middle size header-5</h3>
+
+
+    <ul>
+        <li>Kridita</li>
+        <li>Snigdha</li>
+        <li>Mili</li>
+        <li>Ray</li>
+    </ul>
+    
+</body>
+</html>
